@@ -1,0 +1,49 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+}
+
+.Exclaim
+{
+color: red;
+}
+.Exclaim img{
+    width: 80px;margin-left: -15px;
+    border-width: 10px;
+}
+body
+{
+background-image:
+radial-gradient(50% 30% ellipse at center top, grey 0%, black 100%),
+radial-gradient(60% 50% ellipse at center bottom,  rgb(87, 86, 86) 0%, #323035 100%);
+background-attachment: fixed;
+color:blue;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap');
+.header
+{
+    font-family: 'Meow Script', cursive;
+	letter-spacing: 10px;
+	margin-top: 80px;
+	font-size: 45px;
+	color:silver
+}
+.header img
+{
+	width: 80px;margin-left: -15px;
+}
+
+.login_div
+{
+	background: rgba(255,255,255,0.8);float: none;border-radius: 15px;
+}
+
+.logo
+{
+	width: 80px;margin-top: 30px;border-radius: 40px;
+	border-width: 5px;
+	border-style: double;
+	border-color: orangered;
+}
